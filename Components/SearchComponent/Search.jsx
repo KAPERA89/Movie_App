@@ -52,8 +52,6 @@ const Search = () => {
         onChangeText={(v)=>{setText(v)}}
         placeholder="Search Movie"
         />
-       
-                
           {!isLoading ? 
           <FlatList
           keyExtractor={(item) => item.id}

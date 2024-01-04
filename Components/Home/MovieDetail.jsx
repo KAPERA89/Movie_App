@@ -159,8 +159,8 @@ const MovieDetail = (props) => {
     <SafeAreaView style={styles.container}>
         <View style={styles.container2}>
             <View style={styles.v1}>
-                <Ionic name={'chevron-back'} size='25' color={'#0080FE'} style={styles.i1} onPress={() => props.navigation.goBack()} />
-                <Button title="Go Back" onPress={() => props.navigation.goBack()} />
+                <Ionic name={'chevron-back'} size='25' color={'#f45b00'} style={styles.i1} onPress={() => props.navigation.goBack()} />
+                <Button title="Go Back" color={'#f45b00'} onPress={() => props.navigation.goBack()} />
             </View>
             <View style={styles.vv1}>
                 <Text style={styles.t1} numberOfLines={1} ellipsizeMode="tail">{data.title}</Text>
@@ -258,7 +258,7 @@ const styles = StyleSheet.create({
         height: 250,
       },
       watchTrailerButton: {
-        backgroundColor: '#0080FE',
+        backgroundColor: '#f45b00',
         padding: 10,
         alignItems: 'center',
         margin: 10,
